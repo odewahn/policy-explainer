@@ -1,6 +1,7 @@
 init
 load --fn=source/ai-policy.txt
-prompt --task=tasks/010-pdftext-to-markdown.md
+prompt --task=tasks/pdftext-to-markdown.md
 transfer-prompts --to=blocks --group_tag=source
-prompt --task=tasks/020-interview.md --persona=personas/screenwriter.md
-prompt --task=tasks/020-explain.md --persona=personas/oreilly-author.md
+prompt --task=tasks/interview.md --persona=personas/screenwriter.md
+prompt --task=tasks/interview.md --persona=personas/pirate.md
+prompt --task=tasks/explain.md --persona=personas/oreilly-author.md
